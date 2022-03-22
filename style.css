@@ -1,17 +1,17 @@
-.header {
+/*.header {
     width: 100vw;
     background: url(./bgw1.jpg) fixed 0 40%/cover; 
     height: 3456px;
      height: 100vh;
     box-sizing: border-box;
-    padding: 20px; 
+    padding: 20px; */
     /* border: 50px; */
     /* filter: drop-shadow(10px 0 0 red); */
     /* filter: blur(10px); */
-     font-family: 'Vazir'; */
+   /*  font-family: "Vazir"; 
      font-size: 16px;
     
-} 
+} */
 
 
  html{
@@ -23,7 +23,7 @@ body{
     padding-top: 10px;
 }
 
-.lay{
+.div{
     background-color: dodgerblue;
     color: black;
     padding: 1.2rem 2rem;
@@ -33,4 +33,17 @@ body{
 }
 header,section,aside,footer{
     margin: 0 1.5rem 2rem;
+}
+/* .sec_asi .section_layout{
+    float: left;
+}
+.sec_asi .aside_layout{
+    float: right;
+} */
+section{
+    float: left;
+} 
+
+aside{
+    float: right;
 }
