@@ -17,10 +17,12 @@
  html{
     font-family: "Vazir";
     font-size: 100%;
+    
 } 
 
 body{
     padding-top: 10px;
+    background-image: url(./bgw1.jpg) fixed 0 40%/cover; 
 }
 
 .div{
@@ -33,6 +35,7 @@ body{
 }
 header,section,aside,footer{
     margin: 0 1.5rem 2rem;
+    
 }
 /* .sec_asi .section_layout{
     float: left;
